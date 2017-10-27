@@ -107,6 +107,6 @@ def add_element(graph,name_mat,name_list,name,layer,accurate):
             add_element(graph,name_mat,name_list,name_list[i],layer-1,accurate)
 
 name_mat,name_list = get_similarity_mat()
-save_similar_mat(name_mat,name_list)
+#save_similar_mat(name_mat,name_list)
 #visulize(name_mat,name_list)
-#visulize2(name_mat,name_list,'Snow')
+visulize2(name_mat,name_list,'Snow')
