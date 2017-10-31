@@ -52,7 +52,7 @@ def save_similar_mat(name_mat,name_list):
                 f.write('\n')
             else:f.write(',')
 
-def visulize(name_mat,name_list):
+def visualize(name_mat,name_list):
     #pcva
     # pca = decomposition.PCA(n_components=3)
     # pca.fit(name_mat)
@@ -69,7 +69,7 @@ def visulize(name_mat,name_list):
 
 
 
-def visulize2(name_mat,name_list,name,layer = 2,accurate = 0.9):
+def visualize2(name_mat,name_list,name,layer = 2,accurate = 0.9):
     '''
 
     :param name_mat:
@@ -108,5 +108,5 @@ def add_element(graph,name_mat,name_list,name,layer,accurate):
 
 name_mat,name_list = get_similarity_mat()
 #save_similar_mat(name_mat,name_list)
-#visulize(name_mat,name_list)
-visulize2(name_mat,name_list,'Snow')
+#visualize(name_mat,name_list)
+visualize2(name_mat,name_list,'Snow',3,0.9)
